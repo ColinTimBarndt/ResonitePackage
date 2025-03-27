@@ -1,0 +1,32 @@
+{
+  "id": "R-Main",
+  "ownerId": "U-1QbdepR26LI",
+  "assetUri": "packdb:///a57d6f0c9b94eef3bf0e670af1725408733d69b9d5fb0a301d8084a2aabdcd2b",
+  "version": {
+    "globalVersion": 0,
+    "localVersion": 0,
+    "lastModifyingUserId": null,
+    "lastModifyingMachineId": null
+  },
+  "name": "ValueRelay\u003C\u003Ccolor=#00E900\u003Eint\u003C/color\u003E\u003E",
+  "description": null,
+  "recordType": "object",
+  "ownerName": null,
+  "tags": null,
+  "path": null,
+  "thumbnailUri": null,
+  "lastModificationTime": "2025-03-27T03:21:15.9092157Z",
+  "creationTime": "2025-03-27T03:21:15.9092157Z",
+  "firstPublishTime": null,
+  "isDeleted": false,
+  "isPublic": false,
+  "isForPatrons": false,
+  "isListed": false,
+  "isReadOnly": false,
+  "visits": 0,
+  "rating": 0,
+  "randomOrder": 0,
+  "submissions": null,
+  "assetManifest": [],
+  "migrationMetadata": null
+}

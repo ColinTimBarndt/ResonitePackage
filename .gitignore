@@ -1,0 +1,5 @@
+node_modules
+/dist
+*.resonitepackage
+!/test_data/**/*
+/example/package-lock.json

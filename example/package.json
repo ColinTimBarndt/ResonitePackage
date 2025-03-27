@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "example",
+  "version": "1.0.0",
+  "description": "Examples",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "resonitepackage": ".."
+  }
+}

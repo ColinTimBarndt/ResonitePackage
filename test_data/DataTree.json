@@ -1,0 +1,205 @@
+{
+  "VersionNumber": "2025.3.25.1348",
+  "FeatureFlags": {
+    "ColorManagement": 0,
+    "ResetGUID": 0,
+    "ProtoFlux": 0,
+    "TEXTURE_QUALITY": 0,
+    "TypeManagement": 0,
+    "ALIGNER_FILTERING": 0,
+    "PhotonDust": 0
+  },
+  "Types": [
+    "[FrooxEngine]FrooxEngine.DestroyBlock",
+    "[FrooxEngine]FrooxEngine.DuplicateBlock",
+    "[ProtoFluxBindings]FrooxEngine.ProtoFlux.Runtimes.Execution.Nodes.ValueRelay<int>",
+    "[FrooxEngine]FrooxEngine.DynamicVariableSpace",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.ProtoFlux.INodeOutput>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.ISyncRef>",
+    "[FrooxEngine]FrooxEngine.DynamicReferenceVariable<[FrooxEngine]FrooxEngine.ProtoFlux.ProtoFluxNode>"
+  ],
+  "TypeVersions": {},
+  "Object": {
+    "ID": "00000000-0000-0000-0000-000000000000",
+    "Components": {
+      "ID": "00000001-0000-0000-0000-000000000000",
+      "Data": [
+        {
+          "Type": 0,
+          "Data": {
+            "ID": "00000002-0000-0000-0000-000000000000",
+            "persistent-ID": "00000003-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "00000004-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "00000005-0000-0000-0000-000000000000",
+              "Data": true
+            }
+          }
+        },
+        {
+          "Type": 1,
+          "Data": {
+            "ID": "00000006-0000-0000-0000-000000000000",
+            "persistent-ID": "00000007-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "00000008-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "00000009-0000-0000-0000-000000000000",
+              "Data": true
+            }
+          }
+        },
+        {
+          "Type": 2,
+          "Data": {
+            "ID": "0000000a-0000-0000-0000-000000000000",
+            "persistent-ID": "0000000b-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "0000000c-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "0000000d-0000-0000-0000-000000000000",
+              "Data": true
+            },
+            "Input": {
+              "ID": "0000000e-0000-0000-0000-000000000000",
+              "Data": "0000000a-0000-0000-0000-000000000000"
+            }
+          }
+        },
+        {
+          "Type": 3,
+          "Data": {
+            "ID": "0000000f-0000-0000-0000-000000000000",
+            "persistent-ID": "00000010-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "00000011-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "00000012-0000-0000-0000-000000000000",
+              "Data": true
+            },
+            "SpaceName": {
+              "ID": "00000013-0000-0000-0000-000000000000",
+              "Data": null
+            },
+            "OnlyDirectBinding": {
+              "ID": "00000014-0000-0000-0000-000000000000",
+              "Data": false
+            }
+          }
+        },
+        {
+          "Type": 4,
+          "Data": {
+            "ID": "00000015-0000-0000-0000-000000000000",
+            "persistent-ID": "00000016-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "00000017-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "00000018-0000-0000-0000-000000000000",
+              "Data": true
+            },
+            "VariableName": {
+              "ID": "00000019-0000-0000-0000-000000000000",
+              "Data": "Output"
+            },
+            "Reference": {
+              "ID": "0000001a-0000-0000-0000-000000000000",
+              "Data": "0000000a-0000-0000-0000-000000000000"
+            },
+            "OverrideOnLink": {
+              "ID": "0000001b-0000-0000-0000-000000000000",
+              "Data": false
+            }
+          }
+        },
+        {
+          "Type": 5,
+          "Data": {
+            "ID": "0000001c-0000-0000-0000-000000000000",
+            "persistent-ID": "0000001d-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "0000001e-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "0000001f-0000-0000-0000-000000000000",
+              "Data": true
+            },
+            "VariableName": {
+              "ID": "00000020-0000-0000-0000-000000000000",
+              "Data": "Input"
+            },
+            "Reference": {
+              "ID": "00000021-0000-0000-0000-000000000000",
+              "Data": "0000000e-0000-0000-0000-000000000000"
+            },
+            "OverrideOnLink": {
+              "ID": "00000022-0000-0000-0000-000000000000",
+              "Data": false
+            }
+          }
+        },
+        {
+          "Type": 6,
+          "Data": {
+            "ID": "00000023-0000-0000-0000-000000000000",
+            "persistent-ID": "00000024-0000-0000-0000-000000000000",
+            "UpdateOrder": {
+              "ID": "00000025-0000-0000-0000-000000000000",
+              "Data": 0
+            },
+            "Enabled": {
+              "ID": "00000026-0000-0000-0000-000000000000",
+              "Data": true
+            },
+            "VariableName": {
+              "ID": "00000027-0000-0000-0000-000000000000",
+              "Data": "Node"
+            },
+            "Reference": {
+              "ID": "00000028-0000-0000-0000-000000000000",
+              "Data": "0000000a-0000-0000-0000-000000000000"
+            },
+            "OverrideOnLink": {
+              "ID": "00000029-0000-0000-0000-000000000000",
+              "Data": false
+            }
+          }
+        }
+      ]
+    },
+    "Name": {
+      "ID": "0000002a-0000-0000-0000-000000000000",
+      "Data": "ValueRelay<<color=#00E900>int</color>>"
+    },
+    "Tag": { "ID": "0000002b-0000-0000-0000-000000000000", "Data": null },
+    "Active": { "ID": "0000002c-0000-0000-0000-000000000000", "Data": false },
+    "Persistent-ID": "0000002d-0000-0000-0000-000000000000",
+    "Position": {
+      "ID": "0000002e-0000-0000-0000-000000000000",
+      "Data": [0, 0, 0]
+    },
+    "Rotation": {
+      "ID": "0000002f-0000-0000-0000-000000000000",
+      "Data": [0, 0, 0, 1]
+    },
+    "Scale": {
+      "ID": "00000030-0000-0000-0000-000000000000",
+      "Data": [1, 1, 1]
+    },
+    "OrderOffset": { "ID": "00000031-0000-0000-0000-000000000000", "Data": 0 },
+    "ParentReference": "00000032-0000-0000-0000-000000000000",
+    "Children": []
+  }
+}

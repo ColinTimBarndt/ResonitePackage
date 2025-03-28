@@ -184,7 +184,7 @@ export class DynamicValueVariable extends ComponentData {
       !params.type
         ? {
             ...params,
-            type: DynamicReferenceVariable.getType(params.innerType!),
+            type: DynamicValueVariable.getType(params.innerType!),
           }
         : params
     );

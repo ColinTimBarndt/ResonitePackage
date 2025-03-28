@@ -70,6 +70,7 @@ const objectTypes = [
   new Type("object"),
   Type.User,
   Type.Slot,
+  Type.IWorldElement,
   ...[
     Type.AudioClip,
     Type.Cubemap,

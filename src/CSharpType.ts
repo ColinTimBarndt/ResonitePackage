@@ -152,6 +152,10 @@ export namespace Type {
   export const IDestroyable = new Type("FrooxEngine.IDestroyable", frooxEngine);
   export const ITool = new Type("FrooxEngine.ITool", frooxEngine);
   export const RawDataTool = new Type("FrooxEngine.RawDataTool", frooxEngine);
+  export const IWorldElement = new Type(
+    "FrooxEngine.IWorldElement",
+    frooxEngine
+  );
   export const ISyncRef = new Type("FrooxEngine.ISyncRef", frooxEngine);
 
   // ProtoFlux

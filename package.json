@@ -22,7 +22,8 @@
     "test": "vitest",
     "prepare": "tsc",
     "example.relay_generator": "cd example && tsx relay_generator.ts",
-    "example.print_contents": "cd example && tsx print_contents.ts"
+    "example.print_contents": "cd example && tsx print_contents.ts",
+    "example.component_list": "cd example && tsx component_list.ts"
   },
   "keywords": [],
   "author": "",

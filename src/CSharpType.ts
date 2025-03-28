@@ -128,6 +128,13 @@ export namespace Type {
 
   export const Slot = new Type("FrooxEngine.Slot", frooxEngine);
   export const User = new Type("FrooxEngine.User", frooxEngine);
+  export const Component = new Type("FrooxEngine.Component", frooxEngine);
+  export function WorkerBag(type: Type) {
+    return new Type("FrooxEngine.WorkerBag", {
+      namespace: "FrooxEngine",
+      generics: [type],
+    });
+  }
 
   // Assets
   export function IAssetProvider(type: Type): Type {
